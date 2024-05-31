@@ -12,6 +12,7 @@ class _MainscreenState extends State<Mainscreen> {
   @override
   void initState() {
     super.initState();
+    debugPrint("Init State");
   }
 
   @override
@@ -41,5 +42,6 @@ class _MainscreenState extends State<Mainscreen> {
   @override
   void dispose() {
     super.dispose();
+    debugPrint("Dispose");
   }
 }
